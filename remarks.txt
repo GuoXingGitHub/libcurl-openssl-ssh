@@ -1,0 +1,13 @@
+1：配置\curl-7.50.3\include\curl 头文件
+2：配置库目录：
+	\openssl\lib
+	\libssh2-1.8.0\win32\Debug_lib
+	\curl-7.50.3\LIB Debug - LIB OpenSSL - LIB LibSSH2
+3:附加依赖库
+	crypt32.lib
+	ws2_32.lib
+	wldap32.lib
+	libcurld.lib
+	libeay32.lib
+	ssleay32.lib
+	libssh2d.lib
